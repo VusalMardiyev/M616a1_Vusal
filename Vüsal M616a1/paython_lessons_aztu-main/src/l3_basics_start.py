@@ -48,6 +48,7 @@ print(region == "YASAMAL")
 
 print("=== Kərpic 5 ===")   # Siyahı (list)
 rsrp_list = [-91.5, -108.1, -86.2, -103.3, -97.4]
+index = int(input("Please enter an idea")) 
 print(rsrp_list[0])
 print(rsrp_list[1])
 print(rsrp_list[-1])
@@ -61,6 +62,7 @@ row = {"cell_id": "BAK-0207", "region": "Yasamal", "rsrp_dbm": -108.1}
 print(row["region"])
 print(row["rsrp_dbm"])
 row["band"] = "LTE800"
+row["region"] = "Ehmedli"
 print(row)
 # TODO: row = {...}, row["region"]
 
